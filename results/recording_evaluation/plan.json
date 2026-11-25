@@ -1,0 +1,544 @@
+{
+  "development_recordings": [
+    "1.5_meter_los_person",
+    "1_human_in_los_0.5m",
+    "1_meter_Los_person",
+    "1m_off_LOS_left_0.5m",
+    "1m_off_LOS_left_1m",
+    "1m_off_LOS_right_0.5m",
+    "1m_off_los_right_1m",
+    "2_meter_los_person",
+    "2_walls_2.5m_1_person_behind ESPby1m",
+    "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los",
+    "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los",
+    "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint",
+    "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los",
+    "2_walls_4m_1_person_between_midpoint",
+    "2m_off_Los_left_1m",
+    "2m_off_Los_right_1m",
+    "2m_off_los_left_0.5m",
+    "2m_off_los_right_0.5m",
+    "no_wall_1_person_on_los_x0.75m",
+    "no_wall_1_person_on_los_x1.25m",
+    "no_wall_1_person_on_los_x1.75m",
+    "no_wall_1_person_on_los_x1m",
+    "no_wall_1_person_on_los_x2.5m",
+    "no_wall_1_person_x1.5m_left_0.5m",
+    "no_wall_1_person_x1.5m_left_1m",
+    "no_wall_1_person_x1.5m_right_0.5m",
+    "no_wall_1_person_x1.5m_right_1m",
+    "no_wall_1_person_x1m_left_0.75m",
+    "no_wall_1_person_x1m_left_1m",
+    "no_wall_1_person_x1m_right_0.75m",
+    "no_wall_1_person_x1m_right_1m",
+    "no_wall_1_person_x2.5m_left_1m",
+    "no_wall_1_person_x2.5m_right_1m",
+    "no_wall_1_person_x2m_left_0.75m",
+    "no_wall_1_person_x2m_right_0.75m",
+    "two_walls_2.5m_1_person_behind_router_1.5m",
+    "two_walls_3.25m_1_person_behind_router_1m",
+    "two_walls_3.25m_1_person_midpoint",
+    "two_walls_3.5m_1_person_behind_router_1m",
+    "two_walls_3m_1_person_midpoint"
+  ],
+  "files": {
+    "1.5_meter_los_person": {
+      "augmentation_packets": 3000,
+      "packets": 1476,
+      "xy": [
+        1.5,
+        0
+      ]
+    },
+    "1.5_meter_los_person_repeat": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.5,
+        0
+      ]
+    },
+    "1_human_in_los_0.5m": {
+      "augmentation_packets": 3000,
+      "packets": 1488,
+      "xy": [
+        0.5,
+        0
+      ]
+    },
+    "1_meter_Los_person": {
+      "augmentation_packets": 3000,
+      "packets": 1492,
+      "xy": [
+        1.0,
+        0
+      ]
+    },
+    "1m_off_LOS_left_0.5m": {
+      "augmentation_packets": 3000,
+      "packets": 1495,
+      "xy": [
+        1.0,
+        -0.5
+      ]
+    },
+    "1m_off_LOS_left_1m": {
+      "augmentation_packets": 3000,
+      "packets": 1492,
+      "xy": [
+        1.0,
+        -1.0
+      ]
+    },
+    "1m_off_LOS_right_0.5m": {
+      "augmentation_packets": 3000,
+      "packets": 1492,
+      "xy": [
+        1.0,
+        0.5
+      ]
+    },
+    "1m_off_los_right_1m": {
+      "augmentation_packets": 3000,
+      "packets": 1482,
+      "xy": [
+        1.0,
+        1.0
+      ]
+    },
+    "1m_off_los_right_1m_repeat": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.0,
+        1.0
+      ]
+    },
+    "2_meter_los_person": {
+      "augmentation_packets": 3000,
+      "packets": 1470,
+      "xy": [
+        2.0,
+        0
+      ]
+    },
+    "2_meter_los_person_repeat": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        2.0,
+        0
+      ]
+    },
+    "2_walls_2.5m_1_person_behind ESPby1m": {
+      "augmentation_packets": 3000,
+      "packets": 1487,
+      "xy": [
+        -1.0,
+        0
+      ]
+    },
+    "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": {
+      "augmentation_packets": 3000,
+      "packets": 1489,
+      "xy": [
+        4.5,
+        0
+      ]
+    },
+    "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": {
+      "augmentation_packets": 3000,
+      "packets": 1495,
+      "xy": [
+        3.5,
+        0
+      ]
+    },
+    "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los_repeat": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        3.5,
+        0
+      ]
+    },
+    "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": {
+      "augmentation_packets": 3000,
+      "packets": 1491,
+      "xy": [
+        1.25,
+        0
+      ]
+    },
+    "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": {
+      "augmentation_packets": 3000,
+      "packets": 1491,
+      "xy": [
+        5.0,
+        0
+      ]
+    },
+    "2_walls_4m_1_person_between_midpoint": {
+      "augmentation_packets": 3000,
+      "packets": 1494,
+      "xy": [
+        2.0,
+        0
+      ]
+    },
+    "2_walls_4m_1_person_between_midpoint_repeat": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        2.0,
+        0
+      ]
+    },
+    "2m_off_Los_left_1m": {
+      "augmentation_packets": 3000,
+      "packets": 1494,
+      "xy": [
+        2.0,
+        -1.0
+      ]
+    },
+    "2m_off_Los_left_1m_repeat": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        2.0,
+        -1.0
+      ]
+    },
+    "2m_off_Los_right_1m": {
+      "augmentation_packets": 3000,
+      "packets": 1496,
+      "xy": [
+        2.0,
+        1.0
+      ]
+    },
+    "2m_off_los_left_0.5m": {
+      "augmentation_packets": 3000,
+      "packets": 1494,
+      "xy": [
+        2.0,
+        -0.5
+      ]
+    },
+    "2m_off_los_right_0.5m": {
+      "augmentation_packets": 3000,
+      "packets": 1494,
+      "xy": [
+        2.0,
+        0.5
+      ]
+    },
+    "no_wall_1_person_on_los_x0.75m": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        0.75,
+        0
+      ]
+    },
+    "no_wall_1_person_on_los_x1.25m": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        1.25,
+        0
+      ]
+    },
+    "no_wall_1_person_on_los_x1.75m": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        1.75,
+        0
+      ]
+    },
+    "no_wall_1_person_on_los_x1m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.0,
+        0
+      ]
+    },
+    "no_wall_1_person_on_los_x2.5m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        2.5,
+        0
+      ]
+    },
+    "no_wall_1_person_x1.5m_left_0.5m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.5,
+        -0.5
+      ]
+    },
+    "no_wall_1_person_x1.5m_left_1m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.5,
+        -1.0
+      ]
+    },
+    "no_wall_1_person_x1.5m_right_0.5m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.5,
+        0.5
+      ]
+    },
+    "no_wall_1_person_x1.5m_right_1m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.5,
+        1.0
+      ]
+    },
+    "no_wall_1_person_x1m_left_0.75m": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        1.0,
+        -0.75
+      ]
+    },
+    "no_wall_1_person_x1m_left_1m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.0,
+        -1.0
+      ]
+    },
+    "no_wall_1_person_x1m_right_0.75m": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        1.0,
+        0.75
+      ]
+    },
+    "no_wall_1_person_x1m_right_1m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.0,
+        1.0
+      ]
+    },
+    "no_wall_1_person_x2.5m_left_1m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        2.5,
+        -1.0
+      ]
+    },
+    "no_wall_1_person_x2.5m_right_1m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        2.5,
+        1.0
+      ]
+    },
+    "no_wall_1_person_x2m_left_0.75m": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        2.0,
+        -0.75
+      ]
+    },
+    "no_wall_1_person_x2m_right_0.75m": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        2.0,
+        0.75
+      ]
+    },
+    "two_walls_2.5m_1_person_behind_router_1.5m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        4.0,
+        0
+      ]
+    },
+    "two_walls_3.25m_1_person_behind_router_1m": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        4.25,
+        0
+      ]
+    },
+    "two_walls_3.25m_1_person_midpoint": {
+      "augmentation_packets": 0,
+      "packets": 1500,
+      "xy": [
+        1.625,
+        0
+      ]
+    },
+    "two_walls_3.5m_1_person_behind_router_1m": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        4.5,
+        0
+      ]
+    },
+    "two_walls_3m_1_person_midpoint": {
+      "augmentation_packets": 0,
+      "packets": 2400,
+      "xy": [
+        1.5,
+        0
+      ]
+    }
+  },
+  "position_folds": [
+    [
+      "1m_off_LOS_left_0.5m",
+      "1m_off_LOS_right_0.5m",
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los",
+      "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint",
+      "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los",
+      "2m_off_Los_left_1m",
+      "no_wall_1_person_on_los_x1.25m",
+      "two_walls_3.25m_1_person_midpoint"
+    ],
+    [
+      "1_meter_Los_person",
+      "2m_off_Los_right_1m",
+      "2m_off_los_left_0.5m",
+      "2m_off_los_right_0.5m",
+      "no_wall_1_person_on_los_x1m",
+      "no_wall_1_person_x2.5m_right_1m",
+      "no_wall_1_person_x2m_right_0.75m",
+      "two_walls_2.5m_1_person_behind_router_1.5m"
+    ],
+    [
+      "1m_off_LOS_left_1m",
+      "1m_off_los_right_1m",
+      "2_walls_2.5m_1_person_behind ESPby1m",
+      "no_wall_1_person_on_los_x1.75m",
+      "no_wall_1_person_x1.5m_right_1m",
+      "no_wall_1_person_x1m_left_1m",
+      "no_wall_1_person_x1m_right_1m",
+      "no_wall_1_person_x2.5m_left_1m",
+      "no_wall_1_person_x2m_left_0.75m"
+    ],
+    [
+      "2_meter_los_person",
+      "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los",
+      "2_walls_4m_1_person_between_midpoint",
+      "no_wall_1_person_on_los_x2.5m",
+      "no_wall_1_person_x1.5m_left_0.5m",
+      "no_wall_1_person_x1.5m_left_1m",
+      "no_wall_1_person_x1.5m_right_0.5m",
+      "two_walls_3.5m_1_person_behind_router_1m"
+    ],
+    [
+      "1.5_meter_los_person",
+      "1_human_in_los_0.5m",
+      "no_wall_1_person_on_los_x0.75m",
+      "no_wall_1_person_x1m_left_0.75m",
+      "no_wall_1_person_x1m_right_0.75m",
+      "two_walls_3.25m_1_person_behind_router_1m",
+      "two_walls_3m_1_person_midpoint"
+    ]
+  ],
+  "repeat_overlap_in_dev_raw": {
+    "1.5_meter_los_person": 0,
+    "1_human_in_los_0.5m": 0,
+    "1_meter_Los_person": 0,
+    "1m_off_LOS_left_0.5m": 0,
+    "1m_off_LOS_left_1m": 0,
+    "1m_off_LOS_right_0.5m": 0,
+    "1m_off_los_right_1m": 0,
+    "2_meter_los_person": 0,
+    "2_walls_2.5m_1_person_behind ESPby1m": 0,
+    "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": 0,
+    "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": 0,
+    "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": 0,
+    "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": 0,
+    "2_walls_4m_1_person_between_midpoint": 0,
+    "2m_off_Los_left_1m": 0,
+    "2m_off_Los_right_1m": 0,
+    "2m_off_los_left_0.5m": 0,
+    "2m_off_los_right_0.5m": 0,
+    "no_wall_1_person_on_los_x0.75m": 0,
+    "no_wall_1_person_on_los_x1.25m": 0,
+    "no_wall_1_person_on_los_x1.75m": 0,
+    "no_wall_1_person_on_los_x1m": 0,
+    "no_wall_1_person_on_los_x2.5m": 0,
+    "no_wall_1_person_x1.5m_left_0.5m": 0,
+    "no_wall_1_person_x1.5m_left_1m": 0,
+    "no_wall_1_person_x1.5m_right_0.5m": 0,
+    "no_wall_1_person_x1.5m_right_1m": 0,
+    "no_wall_1_person_x1m_left_0.75m": 0,
+    "no_wall_1_person_x1m_left_1m": 0,
+    "no_wall_1_person_x1m_right_0.75m": 0,
+    "no_wall_1_person_x1m_right_1m": 0,
+    "no_wall_1_person_x2.5m_left_1m": 0,
+    "no_wall_1_person_x2.5m_right_1m": 0,
+    "no_wall_1_person_x2m_left_0.75m": 0,
+    "no_wall_1_person_x2m_right_0.75m": 0,
+    "two_walls_2.5m_1_person_behind_router_1.5m": 0,
+    "two_walls_3.25m_1_person_behind_router_1m": 0,
+    "two_walls_3.25m_1_person_midpoint": 0,
+    "two_walls_3.5m_1_person_behind_router_1m": 0,
+    "two_walls_3m_1_person_midpoint": 0
+  },
+  "repeat_test_recordings": [
+    "1.5_meter_los_person_repeat",
+    "1m_off_los_right_1m_repeat",
+    "2_meter_los_person_repeat",
+    "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los_repeat",
+    "2_walls_4m_1_person_between_midpoint_repeat",
+    "2m_off_Los_left_1m_repeat"
+  ],
+  "repeat_validation_recordings": [
+    "1m_off_LOS_left_0.5m",
+    "1m_off_LOS_right_0.5m",
+    "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint",
+    "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los",
+    "no_wall_1_person_on_los_x1.25m",
+    "two_walls_3.25m_1_person_midpoint"
+  ],
+  "repository_commit": "ea41d0b791a45e1e84426b9df93b133b15aa313c",
+  "seeds": [
+    42,
+    123,
+    314
+  ],
+  "source_checkpoint_sha256": "a77dda823d02c2d900a5908972b1752be1d1dc4866a48cb032ded29273ea52c7",
+  "unlabeled_for_single_position": [
+    "1_meter_LOS_hotspot",
+    "1_wall_2_people_stationary_esp_3m_away_from_wall",
+    "1_wall_2_person_station_esp_0.5m_away_from_router",
+    "1_wall_2_person_stationary_1_person_in_LOS_esp_3m_away_from_wall",
+    "2.1_meter_los_hotspot",
+    "2_walls_2.5m_1_person_walking_randomly_in_router_room",
+    "2_walls_4_m_LOS_last_100_needs_some_cleaning",
+    "2_walls_4m_2_persons_router_side_at_midpoint_esp_side_behind_by_1.2m",
+    "2_walls_LOS_2.5_m",
+    "walking_in_Square_shape",
+    "walking_randomly_through_the_whole_room"
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "fold_1": {
+    "amplitude": {
+      "42": {
+        "test": {
+          "1m_off_LOS_left_0.5m": 0.6097545623779297,
+          "1m_off_LOS_right_0.5m": 0.5722838640213013,
+          "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": 0.8171169757843018,
+          "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": 0.3319395184516907,
+          "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": 2.4926302433013916,
+          "2m_off_Los_left_1m": 0.8967851996421814,
+          "no_wall_1_person_on_los_x1.25m": 0.4391552805900574,
+          "two_walls_3.25m_1_person_midpoint": 0.10147181153297424
+        },
+        "val": 0.7515201009809971
+      },
+      "123": {
+        "test": {
+          "1m_off_LOS_left_0.5m": 0.7191596627235413,
+          "1m_off_LOS_right_0.5m": 0.544127345085144,
+          "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": 0.9614858031272888,
+          "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": 0.37342625856399536,
+          "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": 2.4593281745910645,
+          "2m_off_Los_left_1m": 0.7535091638565063,
+          "no_wall_1_person_on_los_x1.25m": 0.39041122794151306,
+          "two_walls_3.25m_1_person_midpoint": 0.08071399480104446
+        },
+        "val": 0.7454668655991554
+      },
+      "314": {
+        "test": {
+          "1m_off_LOS_left_0.5m": 0.6732290387153625,
+          "1m_off_LOS_right_0.5m": 0.5150502920150757,
+          "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": 1.0396841764450073,
+          "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": 0.35404345393180847,
+          "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": 2.280719041824341,
+          "2m_off_Los_left_1m": 0.8040040135383606,
+          "no_wall_1_person_on_los_x1.25m": 0.3717057704925537,
+          "two_walls_3.25m_1_person_midpoint": 0.09600800275802612
+        },
+        "val": 0.7510688714683056
+      }
+    },
+    "current": {
+      "42": {
+        "test": {
+          "1m_off_LOS_left_0.5m": 0.6523025035858154,
+          "1m_off_LOS_right_0.5m": 0.5035436153411865,
+          "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": 1.0072354078292847,
+          "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": 0.3835340738296509,
+          "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": 2.464404821395874,
+          "2m_off_Los_left_1m": 0.9185740351676941,
+          "no_wall_1_person_on_los_x1.25m": 0.3580451011657715,
+          "two_walls_3.25m_1_person_midpoint": 0.06789392232894897
+        },
+        "val": 0.7466991655528545
+      },
+      "123": {
+        "test": {
+          "1m_off_LOS_left_0.5m": 0.690818190574646,
+          "1m_off_LOS_right_0.5m": 0.4218222200870514,
+          "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": 1.2103230953216553,
+          "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": 0.36750900745391846,
+          "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": 2.450098991394043,
+          "2m_off_Los_left_1m": 0.789320707321167,
+          "no_wall_1_person_on_los_x1.25m": 0.3604981005191803,
+          "two_walls_3.25m_1_person_midpoint": 0.08225631713867188
+        },
+        "val": 0.7690443210303783
+      },
+      "314": {
+        "test": {
+          "1m_off_LOS_left_0.5m": 0.7174301743507385,
+          "1m_off_LOS_right_0.5m": 0.4927988350391388,
+          "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": 0.923051118850708,
+          "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": 0.41170480847358704,
+          "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": 2.079441547393799,
+          "2m_off_Los_left_1m": 0.8663759827613831,
+          "no_wall_1_person_on_los_x1.25m": 0.3625108301639557,
+          "two_walls_3.25m_1_person_midpoint": 0.07469190657138824
+        },
+        "val": 0.7459889464080334
+      }
+    },
+    "ridge_strength": 0.01,
+    "ridge_test": {
+      "1m_off_LOS_left_0.5m": 0.747364092899964,
+      "1m_off_LOS_right_0.5m": 0.5140817077205061,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los": 1.7402182838672338,
+      "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint": 1.219575482673322,
+      "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los": 1.0243611236592418,
+      "2m_off_Los_left_1m": 1.143418192033411,
+      "no_wall_1_person_on_los_x1.25m": 0.5021442588004371,
+      "two_walls_3.25m_1_person_midpoint": 0.5702188348592218
+    },
+    "ridge_validation": 0.9477998424549413,
+    "selected": "amplitude",
+    "validation": {
+      "amplitude": 0.7493519460161527,
+      "current": 0.7539108109970888,
+      "ridge": 0.9477998424549413
+    }
+  },
+  "fold_2": {
+    "amplitude": {
+      "42": {
+        "test": {
+          "1_meter_Los_person": 0.29354843497276306,
+          "2m_off_Los_right_1m": 1.1731973886489868,
+          "2m_off_los_left_0.5m": 0.6344436407089233,
+          "2m_off_los_right_0.5m": 0.8957163095474243,
+          "no_wall_1_person_on_los_x1m": 1.2636640071868896,
+          "no_wall_1_person_x2.5m_right_1m": 1.0370091199874878,
+          "no_wall_1_person_x2m_right_0.75m": 0.9073276519775391,
+          "two_walls_2.5m_1_person_behind_router_1.5m": 0.4603661596775055
+        },
+        "val": 1.1095505124992795
+      },
+      "123": {
+        "test": {
+          "1_meter_Los_person": 0.30962708592414856,
+          "2m_off_Los_right_1m": 1.2045767307281494,
+          "2m_off_los_left_0.5m": 0.6511499881744385,
+          "2m_off_los_right_0.5m": 0.9655664563179016,
+          "no_wall_1_person_on_los_x1m": 1.214171051979065,
+          "no_wall_1_person_x2.5m_right_1m": 1.0532770156860352,
+          "no_wall_1_person_x2m_right_0.75m": 0.9400977492332458,
+          "two_walls_2.5m_1_person_behind_router_1.5m": 0.425739586353302
+        },
+        "val": 1.1287622368997998
+      },
+      "314": {
+        "test": {
+          "1_meter_Los_person": 0.30753907561302185,
+          "2m_off_Los_right_1m": 1.1761451959609985,
+          "2m_off_los_left_0.5m": 0.6644300818443298,
+          "2m_off_los_right_0.5m": 0.9366098642349243,
+          "no_wall_1_person_on_los_x1m": 1.2737350463867188,
+          "no_wall_1_person_x2.5m_right_1m": 1.0361075401306152,
+          "no_wall_1_person_x2m_right_0.75m": 0.9416355490684509,
+          "two_walls_2.5m_1_person_behind_router_1.5m": 0.4536234438419342
+        },
+        "val": 1.117484278149075
+      }
+    },
+    "current": {
+      "42": {
+        "test": {
+          "1_meter_Los_person": 0.25608253479003906,
+          "2m_off_Los_right_1m": 1.1922950744628906,
+          "2m_off_los_left_0.5m": 0.6772830486297607,
+          "2m_off_los_right_0.5m": 0.896926760673523,
+          "no_wall_1_person_on_los_x1m": 1.2606714963912964,
+          "no_wall_1_person_x2.5m_right_1m": 1.0218372344970703,
+          "no_wall_1_person_x2m_right_0.75m": 0.9075443744659424,
+          "two_walls_2.5m_1_person_behind_router_1.5m": 0.36986473202705383
+        },
+        "val": 1.1144301013814077
+      },
+      "123": {
+        "test": {
+          "1_meter_Los_person": 0.25322699546813965,
+          "2m_off_Los_right_1m": 1.2385092973709106,
+          "2m_off_los_left_0.5m": 0.7479441165924072,
+          "2m_off_los_right_0.5m": 0.9712544679641724,
+          "no_wall_1_person_on_los_x1m": 1.2550917863845825,
+          "no_wall_1_person_x2.5m_right_1m": 1.0329326391220093,
+          "no_wall_1_person_x2m_right_0.75m": 0.9502174854278564,
+          "two_walls_2.5m_1_person_behind_router_1.5m": 0.32380685210227966
+        },
+        "val": 1.1231482194529638
+      },
+      "314": {
+        "test": {
+          "1_meter_Los_person": 0.26155152916908264,
+          "2m_off_Los_right_1m": 1.1926891803741455,
+          "2m_off_los_left_0.5m": 0.7251996397972107,
+          "2m_off_los_right_0.5m": 0.9290550947189331,
+          "no_wall_1_person_on_los_x1m": 1.246582269668579,
+          "no_wall_1_person_x2.5m_right_1m": 1.0408904552459717,
+          "no_wall_1_person_x2m_right_0.75m": 0.9053387641906738,
+          "two_walls_2.5m_1_person_behind_router_1.5m": 0.34004315733909607
+        },
+        "val": 1.1036300626065996
+      }
+    },
+    "ridge_strength": 0.001,
+    "ridge_test": {
+      "1_meter_Los_person": 0.8265045899747037,
+      "2m_off_Los_right_1m": 1.2549744354167398,
+      "2m_off_los_left_0.5m": 0.650708773828489,
+      "2m_off_los_right_0.5m": 0.8134649139076664,
+      "no_wall_1_person_on_los_x1m": 0.8038902113217412,
+      "no_wall_1_person_x2.5m_right_1m": 1.1735322920938012,
+      "no_wall_1_person_x2m_right_0.75m": 1.0552941687855864,
+      "two_walls_2.5m_1_person_behind_router_1.5m": 0.4373614853182331
+    },
+    "ridge_validation": 1.3867351828486547,
+    "selected": "current",
+    "validation": {
+      "amplitude": 1.118599009182718,
+      "current": 1.113736127813657,
+      "ridge": 1.3867351828486547
+    }
+  },
+  "fold_3": {
+    "amplitude": {
+      "42": {
+        "test": {
+          "1m_off_LOS_left_1m": 0.8231470584869385,
+          "1m_off_los_right_1m": 0.9739046096801758,
+          "2_walls_2.5m_1_person_behind ESPby1m": 4.09063196182251,
+          "no_wall_1_person_on_los_x1.75m": 0.37153998017311096,
+          "no_wall_1_person_x1.5m_right_1m": 0.4139145612716675,
+          "no_wall_1_person_x1m_left_1m": 0.938913106918335,
+          "no_wall_1_person_x1m_right_1m": 1.2004059553146362,
+          "no_wall_1_person_x2.5m_left_1m": 1.1848900318145752,
+          "no_wall_1_person_x2m_left_0.75m": 0.5702767968177795
+        },
+        "val": 0.6848552357405424
+      },
+      "123": {
+        "test": {
+          "1m_off_LOS_left_1m": 0.7996826171875,
+          "1m_off_los_right_1m": 0.8014752268791199,
+          "2_walls_2.5m_1_person_behind ESPby1m": 4.1631951332092285,
+          "no_wall_1_person_on_los_x1.75m": 0.41332581639289856,
+          "no_wall_1_person_x1.5m_right_1m": 0.3727458119392395,
+          "no_wall_1_person_x1m_left_1m": 0.8499341011047363,
+          "no_wall_1_person_x1m_right_1m": 0.9674710035324097,
+          "no_wall_1_person_x2.5m_left_1m": 1.3262499570846558,
+          "no_wall_1_person_x2m_left_0.75m": 0.6628538370132446
+        },
+        "val": 0.6515725776553154
+      },
+      "314": {
+        "test": {
+          "1m_off_LOS_left_1m": 0.9333465099334717,
+          "1m_off_los_right_1m": 0.9463835954666138,
+          "2_walls_2.5m_1_person_behind ESPby1m": 4.007572174072266,
+          "no_wall_1_person_on_los_x1.75m": 0.36399659514427185,
+          "no_wall_1_person_x1.5m_right_1m": 0.41960737109184265,
+          "no_wall_1_person_x1m_left_1m": 0.9713482856750488,
+          "no_wall_1_person_x1m_right_1m": 1.1437171697616577,
+          "no_wall_1_person_x2.5m_left_1m": 1.2213006019592285,
+          "no_wall_1_person_x2m_left_0.75m": 0.5740342140197754
+        },
+        "val": 0.6959547437727451
+      }
+    },
+    "current": {
+      "42": {
+        "test": {
+          "1m_off_LOS_left_1m": 0.8207272887229919,
+          "1m_off_los_right_1m": 1.055274486541748,
+          "2_walls_2.5m_1_person_behind ESPby1m": 4.163684368133545,
+          "no_wall_1_person_on_los_x1.75m": 0.3170345425605774,
+          "no_wall_1_person_x1.5m_right_1m": 0.48084723949432373,
+          "no_wall_1_person_x1m_left_1m": 0.7793841361999512,
+          "no_wall_1_person_x1m_right_1m": 1.1632426977157593,
+          "no_wall_1_person_x2.5m_left_1m": 1.2144699096679688,
+          "no_wall_1_person_x2m_left_0.75m": 0.5215091705322266
+        },
+        "val": 0.6931973975151777
+      },
+      "123": {
+        "test": {
+          "1m_off_LOS_left_1m": 0.8655231595039368,
+          "1m_off_los_right_1m": 0.8726287484169006,
+          "2_walls_2.5m_1_person_behind ESPby1m": 3.8938796520233154,
+          "no_wall_1_person_on_los_x1.75m": 0.3452204465866089,
+          "no_wall_1_person_x1.5m_right_1m": 0.4082147479057312,
+          "no_wall_1_person_x1m_left_1m": 0.8485497832298279,
+          "no_wall_1_person_x1m_right_1m": 1.0257477760314941,
+          "no_wall_1_person_x2.5m_left_1m": 1.3227674961090088,
+          "no_wall_1_person_x2m_left_0.75m": 0.5505629181861877
+        },
+        "val": 0.6804662384092808
+      },
+      "314": {
+        "test": {
+          "1m_off_LOS_left_1m": 0.7436093688011169,
+          "1m_off_los_right_1m": 0.9148960709571838,
+          "2_walls_2.5m_1_person_behind ESPby1m": 3.8301477432250977,
+          "no_wall_1_person_on_los_x1.75m": 0.36070266366004944,
+          "no_wall_1_person_x1.5m_right_1m": 0.4413476586341858,
+          "no_wall_1_person_x1m_left_1m": 0.786289632320404,
+          "no_wall_1_person_x1m_right_1m": 0.981619656085968,
+          "no_wall_1_person_x2.5m_left_1m": 1.4454478025436401,
+          "no_wall_1_person_x2m_left_0.75m": 0.5848421454429626
+        },
+        "val": 0.6666196174919605
+      }
+    },
+    "ridge_strength": 0.01,
+    "ridge_test": {
+      "1m_off_LOS_left_1m": 1.1932930041296101,
+      "1m_off_los_right_1m": 0.9483266679718365,
+      "2_walls_2.5m_1_person_behind ESPby1m": 4.017416336935144,
+      "no_wall_1_person_on_los_x1.75m": 0.6067886365008259,
+      "no_wall_1_person_x1.5m_right_1m": 0.8490313639649464,
+      "no_wall_1_person_x1m_left_1m": 1.2329138716793628,
+      "no_wall_1_person_x1m_right_1m": 0.7398044273589859,
+      "no_wall_1_person_x2.5m_left_1m": 1.5530812336890794,
+      "no_wall_1_person_x2m_left_0.75m": 0.7645854558972194
+    },
+    "ridge_validation": 0.7343557317218407,
+    "selected": "amplitude",
+    "validation": {
+      "amplitude": 0.6774608523895344,
+      "current": 0.680094417805473,
+      "ridge": 0.7343557317218407
+    }
+  },
+  "fold_4": {
+    "amplitude": {
+      "42": {
+        "test": {
+          "2_meter_los_person": 0.5481947660446167,
+          "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": 0.9322509169578552,
+          "2_walls_4m_1_person_between_midpoint": 1.989142656326294,
+          "no_wall_1_person_on_los_x2.5m": 1.1081092357635498,
+          "no_wall_1_person_x1.5m_left_0.5m": 0.45182567834854126,
+          "no_wall_1_person_x1.5m_left_1m": 0.478793203830719,
+          "no_wall_1_person_x1.5m_right_0.5m": 0.3863215446472168,
+          "two_walls_3.5m_1_person_behind_router_1m": 1.3462697267532349
+        },
+        "val": 0.8193819203547069
+      },
+      "123": {
+        "test": {
+          "2_meter_los_person": 0.568790078163147,
+          "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": 1.1025798320770264,
+          "2_walls_4m_1_person_between_midpoint": 1.8457868099212646,
+          "no_wall_1_person_on_los_x2.5m": 1.188105821609497,
+          "no_wall_1_person_x1.5m_left_0.5m": 0.42506226897239685,
+          "no_wall_1_person_x1.5m_left_1m": 0.48875847458839417,
+          "no_wall_1_person_x1.5m_right_0.5m": 0.3237328827381134,
+          "two_walls_3.5m_1_person_behind_router_1m": 1.6240404844284058
+        },
+        "val": 0.8184708548443658
+      },
+      "314": {
+        "test": {
+          "2_meter_los_person": 0.5590144395828247,
+          "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": 0.8186143636703491,
+          "2_walls_4m_1_person_between_midpoint": 2.284245729446411,
+          "no_wall_1_person_on_los_x2.5m": 1.1727668046951294,
+          "no_wall_1_person_x1.5m_left_0.5m": 0.47210556268692017,
+          "no_wall_1_person_x1.5m_left_1m": 0.5080074667930603,
+          "no_wall_1_person_x1.5m_right_0.5m": 0.37510234117507935,
+          "two_walls_3.5m_1_person_behind_router_1m": 0.9262661933898926
+        },
+        "val": 0.7796346311058316
+      }
+    },
+    "current": {
+      "42": {
+        "test": {
+          "2_meter_los_person": 0.49680662155151367,
+          "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": 0.6919661164283752,
+          "2_walls_4m_1_person_between_midpoint": 1.7349936962127686,
+          "no_wall_1_person_on_los_x2.5m": 1.1955379247665405,
+          "no_wall_1_person_x1.5m_left_0.5m": 0.4963946044445038,
+          "no_wall_1_person_x1.5m_left_1m": 0.4762519896030426,
+          "no_wall_1_person_x1.5m_right_0.5m": 0.41184452176094055,
+          "two_walls_3.5m_1_person_behind_router_1m": 1.2230238914489746
+        },
+        "val": 0.8255455068179539
+      },
+      "123": {
+        "test": {
+          "2_meter_los_person": 0.5221271514892578,
+          "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": 0.7700662016868591,
+          "2_walls_4m_1_person_between_midpoint": 1.6988173723220825,
+          "no_wall_1_person_on_los_x2.5m": 1.1453633308410645,
+          "no_wall_1_person_x1.5m_left_0.5m": 0.450030118227005,
+          "no_wall_1_person_x1.5m_left_1m": 0.49600520730018616,
+          "no_wall_1_person_x1.5m_right_0.5m": 0.3735640347003937,
+          "two_walls_3.5m_1_person_behind_router_1m": 1.5346786975860596
+        },
+        "val": 0.8269749635032245
+      },
+      "314": {
+        "test": {
+          "2_meter_los_person": 0.5423778891563416,
+          "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": 0.8427553176879883,
+          "2_walls_4m_1_person_between_midpoint": 1.3744196891784668,
+          "no_wall_1_person_on_los_x2.5m": 1.1400675773620605,
+          "no_wall_1_person_x1.5m_left_0.5m": 0.39103567600250244,
+          "no_wall_1_person_x1.5m_left_1m": 0.45519784092903137,
+          "no_wall_1_person_x1.5m_right_0.5m": 0.38619816303253174,
+          "two_walls_3.5m_1_person_behind_router_1m": 1.790583848953247
+        },
+        "val": 0.8373823197824615
+      }
+    },
+    "ridge_strength": 0.1,
+    "ridge_test": {
+      "2_meter_los_person": 1.0353188802963755,
+      "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los": 3.3204778320449857,
+      "2_walls_4m_1_person_between_midpoint": 0.9069164432446943,
+      "no_wall_1_person_on_los_x2.5m": 0.8599105127742583,
+      "no_wall_1_person_x1.5m_left_0.5m": 0.5582203562206947,
+      "no_wall_1_person_x1.5m_left_1m": 0.6172307043148543,
+      "no_wall_1_person_x1.5m_right_0.5m": 0.414257810656428,
+      "two_walls_3.5m_1_person_behind_router_1m": 0.8656769320777166
+    },
+    "ridge_validation": 0.8384105542316789,
+    "selected": "amplitude",
+    "validation": {
+      "amplitude": 0.8058291354349681,
+      "current": 0.8299675967012133,
+      "ridge": 0.8384105542316789
+    }
+  },
+  "fold_5": {
+    "amplitude": {
+      "42": {
+        "test": {
+          "1.5_meter_los_person": 0.32258427143096924,
+          "1_human_in_los_0.5m": 1.3727835416793823,
+          "no_wall_1_person_on_los_x0.75m": 0.6915149092674255,
+          "no_wall_1_person_x1m_left_0.75m": 0.5820637941360474,
+          "no_wall_1_person_x1m_right_0.75m": 0.7021886706352234,
+          "two_walls_3.25m_1_person_behind_router_1m": 0.23912633955478668,
+          "two_walls_3m_1_person_midpoint": 0.3106485903263092
+        },
+        "val": 0.7805280070751905
+      },
+      "123": {
+        "test": {
+          "1.5_meter_los_person": 0.3434793949127197,
+          "1_human_in_los_0.5m": 1.3057347536087036,
+          "no_wall_1_person_on_los_x0.75m": 0.6571758985519409,
+          "no_wall_1_person_x1m_left_0.75m": 0.607199490070343,
+          "no_wall_1_person_x1m_right_0.75m": 0.6796873807907104,
+          "two_walls_3.25m_1_person_behind_router_1m": 0.24220389127731323,
+          "two_walls_3m_1_person_midpoint": 0.33433154225349426
+        },
+        "val": 0.7988368570804596
+      },
+      "314": {
+        "test": {
+          "1.5_meter_los_person": 0.3252319097518921,
+          "1_human_in_los_0.5m": 1.3897744417190552,
+          "no_wall_1_person_on_los_x0.75m": 0.665334939956665,
+          "no_wall_1_person_x1m_left_0.75m": 0.5936421751976013,
+          "no_wall_1_person_x1m_right_0.75m": 0.6858501434326172,
+          "two_walls_3.25m_1_person_behind_router_1m": 0.23254187405109406,
+          "two_walls_3m_1_person_midpoint": 0.3220512866973877
+        },
+        "val": 0.791863277554512
+      }
+    },
+    "current": {
+      "42": {
+        "test": {
+          "1.5_meter_los_person": 0.34841057658195496,
+          "1_human_in_los_0.5m": 1.3699209690093994,
+          "no_wall_1_person_on_los_x0.75m": 0.7515928149223328,
+          "no_wall_1_person_x1m_left_0.75m": 0.6435409784317017,
+          "no_wall_1_person_x1m_right_0.75m": 0.6838490962982178,
+          "two_walls_3.25m_1_person_behind_router_1m": 0.25268110632896423,
+          "two_walls_3m_1_person_midpoint": 0.3422497808933258
+        },
+        "val": 0.7869975566864014
+      },
+      "123": {
+        "test": {
+          "1.5_meter_los_person": 0.33913904428482056,
+          "1_human_in_los_0.5m": 1.3586499691009521,
+          "no_wall_1_person_on_los_x0.75m": 0.70306795835495,
+          "no_wall_1_person_x1m_left_0.75m": 0.5882057547569275,
+          "no_wall_1_person_x1m_right_0.75m": 0.6882994771003723,
+          "two_walls_3.25m_1_person_behind_router_1m": 0.2541011571884155,
+          "two_walls_3m_1_person_midpoint": 0.3528931140899658
+        },
+        "val": 0.7320957668125629
+      },
+      "314": {
+        "test": {
+          "1.5_meter_los_person": 0.29486507177352905,
+          "1_human_in_los_0.5m": 1.1370779275894165,
+          "no_wall_1_person_on_los_x0.75m": 0.6620199680328369,
+          "no_wall_1_person_x1m_left_0.75m": 0.6813783049583435,
+          "no_wall_1_person_x1m_right_0.75m": 0.5864339470863342,
+          "two_walls_3.25m_1_person_behind_router_1m": 0.37398001551628113,
+          "two_walls_3m_1_person_midpoint": 0.26302051544189453
+        },
+        "val": 0.7894107941538095
+      }
+    },
+    "ridge_strength": 1.0,
+    "ridge_test": {
+      "1.5_meter_los_person": 0.90510971765608,
+      "1_human_in_los_0.5m": 1.0935995701382075,
+      "no_wall_1_person_on_los_x0.75m": 0.8812154994693586,
+      "no_wall_1_person_x1m_left_0.75m": 1.0602742168332628,
+      "no_wall_1_person_x1m_right_0.75m": 0.8915721426437985,
+      "two_walls_3.25m_1_person_behind_router_1m": 1.7616454580660663,
+      "two_walls_3m_1_person_midpoint": 0.2961864998609428
+    },
+    "ridge_validation": 0.9959808154742402,
+    "selected": "current",
+    "validation": {
+      "amplitude": 0.790409380570054,
+      "current": 0.7695013725509247,
+      "ridge": 0.9959808154742402
+    }
+  }
+}

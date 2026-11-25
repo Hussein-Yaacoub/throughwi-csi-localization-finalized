@@ -1,6 +1,6 @@
 # ThroughWi Localization
 
-ThroughWi is an American University of Beirut electrical and computer engineering final-year project. This repository accompanies *ThroughWi: Single-Link Wi-Fi Sensing for Stationary-Person Localization in Homes*. It includes the ESP32 capture workflow, residential recordings, and the paired CNN training and evaluation experiment.
+ThroughWi is an American University of Beirut electrical and computer engineering final-year project on device-free person localization using Wi-Fi channel state information. This is the project repository for the ESP32 capture workflow, residential recordings, training code, and evaluation results.
 
 **Team** · Hussein Yaacoub, Hassan Khalil, Jihad Mobarak, and Ali Assaad
 
@@ -10,10 +10,26 @@ ThroughWi is an American University of Beirut electrical and computer engineerin
 
 - An ESP32 and commodity Wi-Fi access point provide device-free sensing, with active packet triggering and host-side serial logging.
 - The acquisition check recorded 1,500 CSI frames in 150 seconds, or 10 frames/s. The earlier passive implementation obtained approximately 0.2 frames/s.
-- The residential campaign comprises 29 recordings across two homes, with 43,147 cleaned packets and 26,812 position-labeled packets for localization.
+- The finalized residential dataset contains 51 scenario recordings, six repeat recordings, and 29 augmentation files. The first 29 scenarios were collected across two homes.
 - Residential fine-tuning reduced mean packet-level horizontal localization error by **44.4%** in the paired Multi-Scale CNN experiment.
 
-## Latest Kaggle comparison
+## Position-grouped residential evaluation
+
+The HALOC-pretrained CNN was fine-tuned on residential Wi-Fi CSI and evaluated with five position-grouped folds and three seeds. The evaluation covers 40 labeled recordings at 33 nominal horizontal positions. Setups and sessions may be shared across folds.
+
+| Evaluation | Mean horizontal error |
+| --- | ---: |
+| ThroughWi CNN, held-out positions | **0.856 m** |
+| Training-fold mean-position baseline | 1.123 m |
+| CSI-amplitude ridge regression | 1.046 m |
+| ThroughWi CNN, six repeats of familiar placements | 0.136 m |
+
+The grouped CNN result has a seed standard deviation of 0.014 m and a 95% position-cluster bootstrap interval of 0.668–1.085 m. The paired 95% intervals for the CNN's mean error reduction are 0.038–0.505 m versus mean position and 0.047–0.335 m versus ridge regression.
+
+- [Grouped and repeat evaluation](https://www.kaggle.com/code/husseinyaacoub/notebook11f621fd79/output?scriptVersionId=373909342) · [recording and fold plan](results/recording_evaluation/plan.json) · [per-recording errors and summary](results/recording_evaluation/summary.json)
+- [Model-comparison notebook](kaggle/validation_model_comparison.ipynb) · [saved Kaggle run](https://www.kaggle.com/code/husseinyaacoub/notebook409cf2cee2/output?scriptVersionId=373959101) · [fold results](results/model_comparison/fold_results.json) · [summary](results/model_comparison/summary.json)
+
+## Fixed-split training-set expansion
 
 All four Multi-Scale CNN runs started from the same HALOC checkpoint and used the same four held-out residential recordings (5,941 packets). The added files were used for training. Checkpoints were selected on the original validation recordings, with seed 42 and 30 epochs for each condition.
 
@@ -26,7 +42,7 @@ All four Multi-Scale CNN runs started from the same HALOC checkpoint and used th
 
 The final condition reduced mean test error by 34.0% relative to the original-training-data condition, and by 6.6% relative to the seven-scenario condition. These are single-seed results on the original residential test split. Scenario coordinates were inferred from filenames. Git history describes the nine newer scenarios as interpolated.
 
-See [Kaggle artifacts and reproduction instructions](kaggle/README.md) and the [data inventory](data/README.md).
+See [Kaggle artifacts and reproduction instructions](kaggle/README.md) and the [data directory](data/).
 
 ## Earlier paired fine-tuning experiment
 
@@ -44,7 +60,7 @@ See the [saved results and per-recording breakdown](results/residential_cnn/READ
 | Directory | Contents |
 | --- | --- |
 | [firmware](firmware/) and [capture](capture/) | ESP32 acquisition firmware and Python serial logger |
-| [data](data/) | 29 original residential recordings, their partition manifest, 29 augmentation-only files with 3,500 rows each, and sixteen supplemental scenarios |
+| [data](data/) | 51 scenario recordings, six repeat recordings, and 29 augmentation files |
 | [notebooks/historical](notebooks/historical/) | Original experiment notebooks |
 | [scripts](scripts/) | Preparation, training, fine-tuning, and supplementary evaluation utilities |
 | [experiments/residential_cnn](experiments/residential_cnn/) | Paired CNN training and evaluation workflow |
@@ -82,6 +98,6 @@ The standalone runner accepts the prepared NPZ file and supports `--model multis
 | Output directory | Required through `--out`; must be a new directory |
 | Saved files | `best.pt` contains model weights and normalization statistics; `metrics.json` contains run settings and training history, plus test metrics when requested |
 
-To reproduce the manuscript results, use the [paired CNN workflow](experiments/residential_cnn/README.md), which uses recorded training settings and separate evaluation commands.
+For the grouped and repeat evaluations, use the linked notebooks and the archived recording plan above. The [paired CNN workflow](experiments/residential_cnn/README.md) documents the earlier fixed-split comparison between frozen and fine-tuned checkpoints.
 
-See [capture setup](docs/capture.md) for flashing the board and collecting data, and [data documentation](data/README.md) for the recording inventory.
+See [capture setup](docs/capture.md) for flashing the board and collecting data, and [data directory](data/) for the recording inventory.
