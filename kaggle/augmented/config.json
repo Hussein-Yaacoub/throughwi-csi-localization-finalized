@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "model": "MultiScaleCNN",
+  "data_sha256": "640801fe17bd259ed1ea95427167b32510944a57589b7d53697b2c9bb18a6536",
+  "initial_model_state_sha256": "dea116df25350b4f18b9a300d4428dd071a1c861dde51df3f60d8f33f7e267df",
+  "epochs": 30,
+  "batch_size": 512,
+  "seed": 42,
+  "phase": "finetune",
+  "byte_order": "iq",
+  "learning_rate": 0.0005,
+  "weight_decay": 0.001,
+  "schedule": "cosine",
+  "loss": "Huber, delta=1 in normalized target space",
+  "augmentation": {
+    "gaussian_std": 0.05,
+    "mask_fraction": 0.05
+  },
+  "model_selection": "validation mean Euclidean distance in meters",
+  "run_schema": 1,
+  "model_source_sha256": "60fe5ccfc0d4ce1a4b51a7398b5575aa0866126d557b4475f1794348ed3cc106",
+  "runner_source_sha256": "202d7e045fd6497ab36fddf1c716b59c0fcaa90139da0e6c1baa80c86a534f46",
+  "device": "cuda",
+  "threads": 2,
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0"
+  }
+}

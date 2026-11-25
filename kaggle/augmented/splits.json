@@ -1,0 +1,35 @@
+{
+  "train": {
+    "recordings": [
+      "1.5_meter_los_person.csv",
+      "1_human_in_los_0.5m.csv",
+      "1_meter_Los_person.csv",
+      "1m_off_LOS_left_0.5m.csv",
+      "1m_off_LOS_right_0.5m.csv",
+      "2_walls_2.5m_1_person_behind ESPby1m.csv",
+      "2_walls_2.5m_1_person_behind_router_by_2m_collinear_with_los.csv",
+      "2_walls_2.5m_1_person_between_router_and_esp_in_los_midpoint.csv",
+      "2_walls_4m_1_person_between_midpoint.csv",
+      "2m_off_Los_right_1m.csv",
+      "2m_off_los_left_0.5m.csv",
+      "2m_off_los_right_0.5m.csv"
+    ],
+    "packets": 59888
+  },
+  "val": {
+    "recordings": [
+      "1m_off_LOS_left_1m.csv",
+      "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los.csv"
+    ],
+    "packets": 2983
+  },
+  "test": {
+    "recordings": [
+      "1m_off_los_right_1m.csv",
+      "2_meter_los_person.csv",
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv",
+      "2m_off_Los_left_1m.csv"
+    ],
+    "packets": 5941
+  }
+}

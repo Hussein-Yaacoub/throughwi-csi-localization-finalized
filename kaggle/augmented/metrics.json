@@ -1,0 +1,223 @@
+{
+  "config": {
+    "schema": 1,
+    "model": "MultiScaleCNN",
+    "data_sha256": "640801fe17bd259ed1ea95427167b32510944a57589b7d53697b2c9bb18a6536",
+    "initial_model_state_sha256": "dea116df25350b4f18b9a300d4428dd071a1c861dde51df3f60d8f33f7e267df",
+    "epochs": 30,
+    "batch_size": 512,
+    "seed": 42,
+    "phase": "finetune",
+    "byte_order": "iq",
+    "learning_rate": 0.0005,
+    "weight_decay": 0.001,
+    "schedule": "cosine",
+    "loss": "Huber, delta=1 in normalized target space",
+    "augmentation": {
+      "gaussian_std": 0.05,
+      "mask_fraction": 0.05
+    },
+    "model_selection": "validation mean Euclidean distance in meters",
+    "run_schema": 1,
+    "model_source_sha256": "60fe5ccfc0d4ce1a4b51a7398b5575aa0866126d557b4475f1794348ed3cc106",
+    "runner_source_sha256": "202d7e045fd6497ab36fddf1c716b59c0fcaa90139da0e6c1baa80c86a534f46",
+    "device": "cuda",
+    "threads": 2,
+    "versions": {
+      "python": "3.13.16",
+      "numpy": "2.1.3",
+      "torch": "2.11.0+cu130",
+      "cuda": "13.0"
+    }
+  },
+  "best_epoch": 15,
+  "best_validation_error_m": 2.0458872318267822,
+  "history": [
+    {
+      "epoch": 1,
+      "training_loss": 0.12155847671816701,
+      "validation_mean_distance_m": 2.17743182182312
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.05341191265673329,
+      "validation_mean_distance_m": 2.132737636566162
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.041294367239974,
+      "validation_mean_distance_m": 2.1429035663604736
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.035324407753868275,
+      "validation_mean_distance_m": 2.100456953048706
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.03141832858674386,
+      "validation_mean_distance_m": 2.103135108947754
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.029440063845357283,
+      "validation_mean_distance_m": 2.095299243927002
+    },
+    {
+      "epoch": 7,
+      "training_loss": 0.02724275414190237,
+      "validation_mean_distance_m": 2.058624029159546
+    },
+    {
+      "epoch": 8,
+      "training_loss": 0.0259352212987249,
+      "validation_mean_distance_m": 2.1085598468780518
+    },
+    {
+      "epoch": 9,
+      "training_loss": 0.024423704673457745,
+      "validation_mean_distance_m": 2.0979559421539307
+    },
+    {
+      "epoch": 10,
+      "training_loss": 0.023412919166116448,
+      "validation_mean_distance_m": 2.07631778717041
+    },
+    {
+      "epoch": 11,
+      "training_loss": 0.022021470699412536,
+      "validation_mean_distance_m": 2.0822153091430664
+    },
+    {
+      "epoch": 12,
+      "training_loss": 0.021566201835938423,
+      "validation_mean_distance_m": 2.09586501121521
+    },
+    {
+      "epoch": 13,
+      "training_loss": 0.020920287126004935,
+      "validation_mean_distance_m": 2.07787823677063
+    },
+    {
+      "epoch": 14,
+      "training_loss": 0.019739834530039677,
+      "validation_mean_distance_m": 2.0731356143951416
+    },
+    {
+      "epoch": 15,
+      "training_loss": 0.018949269991633794,
+      "validation_mean_distance_m": 2.0458872318267822
+    },
+    {
+      "epoch": 16,
+      "training_loss": 0.018379030411805726,
+      "validation_mean_distance_m": 2.0579192638397217
+    },
+    {
+      "epoch": 17,
+      "training_loss": 0.017683127509828655,
+      "validation_mean_distance_m": 2.0554721355438232
+    },
+    {
+      "epoch": 18,
+      "training_loss": 0.017484413173757325,
+      "validation_mean_distance_m": 2.0638327598571777
+    },
+    {
+      "epoch": 19,
+      "training_loss": 0.016932038347964105,
+      "validation_mean_distance_m": 2.063535213470459
+    },
+    {
+      "epoch": 20,
+      "training_loss": 0.01648381924505002,
+      "validation_mean_distance_m": 2.0767173767089844
+    },
+    {
+      "epoch": 21,
+      "training_loss": 0.015904999894943192,
+      "validation_mean_distance_m": 2.078490972518921
+    },
+    {
+      "epoch": 22,
+      "training_loss": 0.01584398545122763,
+      "validation_mean_distance_m": 2.0817501544952393
+    },
+    {
+      "epoch": 23,
+      "training_loss": 0.015640044654290322,
+      "validation_mean_distance_m": 2.078864812850952
+    },
+    {
+      "epoch": 24,
+      "training_loss": 0.015402923405047028,
+      "validation_mean_distance_m": 2.0810399055480957
+    },
+    {
+      "epoch": 25,
+      "training_loss": 0.01519909415706582,
+      "validation_mean_distance_m": 2.0783236026763916
+    },
+    {
+      "epoch": 26,
+      "training_loss": 0.015115194884806895,
+      "validation_mean_distance_m": 2.076284408569336
+    },
+    {
+      "epoch": 27,
+      "training_loss": 0.015019093440597289,
+      "validation_mean_distance_m": 2.0801339149475098
+    },
+    {
+      "epoch": 28,
+      "training_loss": 0.01487344513504686,
+      "validation_mean_distance_m": 2.0787606239318848
+    },
+    {
+      "epoch": 29,
+      "training_loss": 0.014855803758097051,
+      "validation_mean_distance_m": 2.079512119293213
+    },
+    {
+      "epoch": 30,
+      "training_loss": 0.014892694710263938,
+      "validation_mean_distance_m": 2.0794544219970703
+    }
+  ],
+  "val": {
+    "packets": 2983,
+    "recordings": 2,
+    "mean_distance_m": 2.0458872318267822,
+    "median_distance_m": 2.1053483486175537,
+    "p90_distance_m": 3.039278030395508,
+    "recording_balanced_mean_distance_m": 2.0462175011634827,
+    "per_axis_mae_m": {
+      "x": 1.8571789264678955,
+      "y": 0.3877809941768646,
+      "z": 0.0
+    },
+    "per_recording_mean_distance_m": {
+      "1m_off_LOS_left_1m.csv": 1.0604931116104126,
+      "2_walls_4m_1_person_behind_router_by_1m_collinear_with_los.csv": 3.0319418907165527
+    }
+  },
+  "test": {
+    "packets": 5941,
+    "recordings": 4,
+    "mean_distance_m": 1.032643437385559,
+    "median_distance_m": 0.9743828177452087,
+    "p90_distance_m": 1.8332136869430542,
+    "recording_balanced_mean_distance_m": 1.0308010578155518,
+    "per_axis_mae_m": {
+      "x": 0.8350648283958435,
+      "y": 0.3539043068885803,
+      "z": 0.0
+    },
+    "per_recording_mean_distance_m": {
+      "1m_off_los_right_1m.csv": 1.0590603351593018,
+      "2_meter_los_person.csv": 0.5719922780990601,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 1.3039995431900024,
+      "2m_off_Los_left_1m.csv": 1.1881520748138428
+    }
+  }
+}

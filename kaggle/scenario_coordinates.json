@@ -1,0 +1,86 @@
+{
+  "seven": {
+    "no_wall_1_person_x1.5m_left_0.5m.csv.gz": [
+      1.5,
+      -0.5,
+      1
+    ],
+    "no_wall_1_person_x1.5m_left_1m.csv.gz": [
+      1.5,
+      -1,
+      1
+    ],
+    "no_wall_1_person_x1.5m_right_0.5m.csv.gz": [
+      1.5,
+      0.5,
+      1
+    ],
+    "no_wall_1_person_x1.5m_right_1m.csv.gz": [
+      1.5,
+      1,
+      1
+    ],
+    "two_walls_2.5m_1_person_behind_router_1.5m.csv.gz": [
+      4,
+      0,
+      1
+    ],
+    "two_walls_3.25m_1_person_behind_router_1m.csv.gz": [
+      4.25,
+      0,
+      1
+    ],
+    "two_walls_3.25m_1_person_midpoint.csv.gz": [
+      1.625,
+      0,
+      1
+    ]
+  },
+  "nine": {
+    "no_wall_1_person_on_los_x0.75m.csv": [
+      0.75,
+      0,
+      1
+    ],
+    "no_wall_1_person_on_los_x1.25m.csv": [
+      1.25,
+      0,
+      1
+    ],
+    "no_wall_1_person_on_los_x1.75m.csv": [
+      1.75,
+      0,
+      1
+    ],
+    "no_wall_1_person_x1m_left_0.75m.csv": [
+      1,
+      -0.75,
+      1
+    ],
+    "no_wall_1_person_x1m_right_0.75m.csv": [
+      1,
+      0.75,
+      1
+    ],
+    "no_wall_1_person_x2m_left_0.75m.csv": [
+      2,
+      -0.75,
+      1
+    ],
+    "no_wall_1_person_x2m_right_0.75m.csv": [
+      2,
+      0.75,
+      1
+    ],
+    "two_walls_3.5m_1_person_behind_router_1m.csv": [
+      4.5,
+      0,
+      1
+    ],
+    "two_walls_3m_1_person_midpoint.csv": [
+      1.5,
+      0,
+      1
+    ]
+  }
+}

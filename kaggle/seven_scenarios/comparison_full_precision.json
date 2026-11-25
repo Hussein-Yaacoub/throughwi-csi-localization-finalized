@@ -1,0 +1,28 @@
+{
+  "packets": 5941,
+  "recordings": 4,
+  "mean_distance_m": 0.8197616934776306,
+  "median_distance_m": 0.6916264295578003,
+  "p90_distance_m": 1.428844928741455,
+  "recording_balanced_mean_distance_m": 0.8191863894462585,
+  "per_axis_mae_m": {
+    "x": 0.6844356656074524,
+    "y": 0.28436267375946045,
+    "z": 0.0
+  },
+  "per_recording_mean_distance_m": {
+    "1m_off_los_right_1m.csv": 0.9566954970359802,
+    "2_meter_los_person.csv": 0.5996933579444885,
+    "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 0.6189099550247192,
+    "2m_off_Los_left_1m.csv": 1.1014467477798462
+  },
+  "max_absolute_standardized_feature": 162.38543701171875,
+  "mixed_precision": false,
+  "mean_horizontal_distance_m": 0.8197616934776306,
+  "per_recording_mean_horizontal_distance_m": {
+    "1m_off_los_right_1m.csv": 0.9566954970359802,
+    "2_meter_los_person.csv": 0.5996933579444885,
+    "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 0.6189099550247192,
+    "2m_off_Los_left_1m.csv": 1.1014467477798462
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "data_commit": "6bff28e8aec35c85365b95ffc1d5d0631245b973",
+  "training_code_commit": "af54c0cdd1e2be3a0d0c0f524ebef15db50bf87e",
+  "new_scenario_counts": {
+    "no_wall_1_person_on_los_x0.75m.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    },
+    "no_wall_1_person_on_los_x1.25m.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    },
+    "no_wall_1_person_on_los_x1.75m.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    },
+    "no_wall_1_person_x1m_left_0.75m.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    },
+    "no_wall_1_person_x1m_right_0.75m.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    },
+    "no_wall_1_person_x2m_left_0.75m.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    },
+    "no_wall_1_person_x2m_right_0.75m.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    },
+    "two_walls_3.5m_1_person_behind_router_1m.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    },
+    "two_walls_3m_1_person_midpoint.csv": {
+      "raw_rows": 2400,
+      "training_rows": 2400,
+      "held_out_matches": 0
+    }
+  },
+  "coordinates_m": {
+    "no_wall_1_person_on_los_x0.75m.csv": [
+      0.75,
+      0,
+      1
+    ],
+    "no_wall_1_person_on_los_x1.25m.csv": [
+      1.25,
+      0,
+      1
+    ],
+    "no_wall_1_person_on_los_x1.75m.csv": [
+      1.75,
+      0,
+      1
+    ],
+    "no_wall_1_person_x1m_left_0.75m.csv": [
+      1,
+      -0.75,
+      1
+    ],
+    "no_wall_1_person_x1m_right_0.75m.csv": [
+      1,
+      0.75,
+      1
+    ],
+    "no_wall_1_person_x2m_left_0.75m.csv": [
+      2,
+      -0.75,
+      1
+    ],
+    "no_wall_1_person_x2m_right_0.75m.csv": [
+      2,
+      0.75,
+      1
+    ],
+    "two_walls_3.5m_1_person_behind_router_1m.csv": [
+      4.5,
+      0,
+      1
+    ],
+    "two_walls_3m_1_person_midpoint.csv": [
+      1.5,
+      0,
+      1
+    ]
+  },
+  "prior": {
+    "packets": 5941,
+    "recordings": 4,
+    "mean_distance_m": 0.8197616934776306,
+    "median_distance_m": 0.6916264295578003,
+    "p90_distance_m": 1.428844928741455,
+    "recording_balanced_mean_distance_m": 0.8191863894462585,
+    "per_axis_mae_m": {
+      "x": 0.6844356656074524,
+      "y": 0.28436267375946045,
+      "z": 0.0
+    },
+    "per_recording_mean_distance_m": {
+      "1m_off_los_right_1m.csv": 0.9566954970359802,
+      "2_meter_los_person.csv": 0.5996933579444885,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 0.6189099550247192,
+      "2m_off_Los_left_1m.csv": 1.1014467477798462
+    },
+    "max_absolute_standardized_feature": 162.38543701171875,
+    "mixed_precision": false,
+    "mean_horizontal_distance_m": 0.8197616934776306,
+    "per_recording_mean_horizontal_distance_m": {
+      "1m_off_los_right_1m.csv": 0.9566954970359802,
+      "2_meter_los_person.csv": 0.5996933579444885,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 0.6189099550247192,
+      "2m_off_Los_left_1m.csv": 1.1014467477798462
+    }
+  },
+  "new": {
+    "packets": 5941,
+    "recordings": 4,
+    "mean_distance_m": 0.7658319473266602,
+    "median_distance_m": 0.6821519732475281,
+    "p90_distance_m": 1.176306962966919,
+    "recording_balanced_mean_distance_m": 0.7653118371963501,
+    "per_axis_mae_m": {
+      "x": 0.662226676940918,
+      "y": 0.25102436542510986,
+      "z": 0.0
+    },
+    "per_recording_mean_distance_m": {
+      "1m_off_los_right_1m.csv": 0.8726102113723755,
+      "2_meter_los_person.csv": 0.5803572535514832,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 0.7041993737220764,
+      "2m_off_Los_left_1m.csv": 0.9040805101394653
+    },
+    "max_absolute_standardized_feature": 176.7124786376953,
+    "mixed_precision": false,
+    "mean_horizontal_distance_m": 0.7658319473266602,
+    "per_recording_mean_horizontal_distance_m": {
+      "1m_off_los_right_1m.csv": 0.8726102113723755,
+      "2_meter_los_person.csv": 0.5803572535514832,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 0.7041993737220764,
+      "2m_off_Los_left_1m.csv": 0.9040805101394653
+    }
+  }
+}

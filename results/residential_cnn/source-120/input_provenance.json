@@ -1,0 +1,19 @@
+{
+  "source": "https://zenodo.org/records/10715595/files/HALOC.zip?download=1",
+  "sequence_sha256": {
+    "0.csv": "4c8827226024bc58546fbfd2c82e2212095c9287d79fb8d844aad4f32fc968f8",
+    "1.csv": "aeb98f30882ee5c7462d6f5d3ae3d069eb38ba1d0d05261784935f0c231e245b",
+    "2.csv": "9666f0a48904649c101487b8e194c3b99be586a66ebc93a211b849bddc90fa71",
+    "3.csv": "3c253aeba79f577f88281d9e0741d5f3d3e633acfb860c79493ecd55bf8d49ce",
+    "4.csv": "221cf63316c0f3787d72224a73d900457d5445086220bd587607eba0ee21bde9",
+    "5.csv": "82caaf403582bcd35bd991a1ca3a30e8bda0263aeaf2e8477f0f007099a3fb5d"
+  },
+  "feature_convention": "fresh CSV conversion",
+  "declared_pair_order": "iq",
+  "partition_packets": {
+    "train": 96491,
+    "val": 28111,
+    "test": 14277
+  },
+  "total_packets": 138879
+}

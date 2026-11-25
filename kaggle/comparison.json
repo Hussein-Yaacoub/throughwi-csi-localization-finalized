@@ -1,0 +1,66 @@
+{
+  "commit": "af54c0cdd1e2be3a0d0c0f524ebef15db50bf87e",
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "numpy": "2.1.3",
+  "added_train_packets": 42000,
+  "epochs": 30,
+  "seed": 42,
+  "batch_size": 512,
+  "original": {
+    "packets": 5941,
+    "recordings": 4,
+    "mean_distance_m": 1.1608916521072388,
+    "median_distance_m": 1.0166096687316895,
+    "p90_distance_m": 2.0562832355499268,
+    "recording_balanced_mean_distance_m": 1.1585739850997925,
+    "per_axis_mae_m": {
+      "x": 0.95270174741745,
+      "y": 0.3989177942276001,
+      "z": 0.0
+    },
+    "per_recording_mean_distance_m": {
+      "1m_off_los_right_1m.csv": 0.9725093841552734,
+      "2_meter_los_person.csv": 0.6954153776168823,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 1.5799559354782104,
+      "2m_off_Los_left_1m.csv": 1.3864152431488037
+    },
+    "max_absolute_standardized_feature": 111.37541198730469,
+    "mixed_precision": false,
+    "mean_horizontal_distance_m": 1.1608916521072388,
+    "per_recording_mean_horizontal_distance_m": {
+      "1m_off_los_right_1m.csv": 0.9725093841552734,
+      "2_meter_los_person.csv": 0.6954153776168823,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 1.5799559354782104,
+      "2m_off_Los_left_1m.csv": 1.3864152431488037
+    }
+  },
+  "augmented": {
+    "packets": 5941,
+    "recordings": 4,
+    "mean_distance_m": 1.0328125953674316,
+    "median_distance_m": 0.974695086479187,
+    "p90_distance_m": 1.8337557315826416,
+    "recording_balanced_mean_distance_m": 1.0309693962335587,
+    "per_axis_mae_m": {
+      "x": 0.8352440595626831,
+      "y": 0.35389742255210876,
+      "z": 0.0
+    },
+    "per_recording_mean_distance_m": {
+      "1m_off_los_right_1m.csv": 1.0590260028839111,
+      "2_meter_los_person.csv": 0.5720987915992737,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 1.304503083229065,
+      "2m_off_Los_left_1m.csv": 1.1882497072219849
+    },
+    "max_absolute_standardized_feature": 160.0256805419922,
+    "mixed_precision": false,
+    "mean_horizontal_distance_m": 1.0328125953674316,
+    "per_recording_mean_horizontal_distance_m": {
+      "1m_off_los_right_1m.csv": 1.0590260028839111,
+      "2_meter_los_person.csv": 0.5720987915992737,
+      "2_walls_2.5m_1_person_behind_the_router_by_1m_collinear_with_los.csv": 1.304503083229065,
+      "2m_off_Los_left_1m.csv": 1.1882497072219849
+    }
+  }
+}
